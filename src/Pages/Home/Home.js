@@ -10,7 +10,7 @@ const Home = () => {
     const { user } = useAuth();
     return (
         <div>
-            <div className="d-flex justify-content-around align-items-center">
+            <div className="d-flex justify-content-around align-items-center row row-cols-1 row-cols-md-3 ">
                 <img className="m-4 p-4" src={image} alt="" />
                 <div>
                     <h1 className="mx-4 p-2">Our Aim is to deliver the best medical service</h1>
