@@ -2,8 +2,14 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 
 const Footer = () => {
+    const activeStyle = {
+        position: 'absolute',
+        left: 0,
+        bottom: 0,
+        right: 0,
+    }
     return (
-        <footer className="bg-danger text-dark p-3 color-">
+        <footer activeStyle={activeStyle} className="bg-danger text-dark p-3 color-">
             <div className="d-flex justify-content-around ">
                 <div>
                     <h1>Contact Us</h1>

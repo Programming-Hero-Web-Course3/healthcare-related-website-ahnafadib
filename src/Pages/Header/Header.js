@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth'
 
 const Header = () => {
     const activeStyle = {
@@ -12,6 +13,7 @@ const Header = () => {
         borderRadius: 10
 
     }
+    const { user, logout } = useAuth();
     return (
         <nav className="bg-danger text-dark p-3">
             <div>
@@ -22,9 +24,15 @@ const Header = () => {
                 className="mx-4 text-decoration-none text-dark" to="/home">Home</NavLink>
             <NavLink activeStyle={activeStyle}
                 className="mx-4 text-decoration-none text-dark" to="/services">Services</NavLink>
+            <NavLink activeStyle={activeStyle}
+                className="mx-4 text-decoration-none text-dark" to="/login">Log in</NavLink>
+            <NavLink activeStyle={activeStyle}
+                className="mx-4 text-decoration-none text-dark" to="/register">Register</NavLink>
+            <span>{user.displayName} </span>
+            {user?.email && <button onClick={logout}>log out</button>}
         </nav>
 
     );
 };
 
-export default Header; <h2>This is Header</h2>
+export default Header;

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Service from '../../Service/Service';
-
+import Service from "../../../src/Pages/Service/Service";
 const Services = () => {
     const [services, setServices] = useState([])
 
@@ -12,7 +11,7 @@ const Services = () => {
     }, [])
 
     return (
-        <div className="bg-primary">
+        <div className="bg-dark">
             <h2 className="m-4">Our Services</h2>
             <div className="row row-cols-1 row-cols-md-3 g-2 m-4">
                 {

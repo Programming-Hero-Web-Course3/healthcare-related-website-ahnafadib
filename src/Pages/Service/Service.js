@@ -12,7 +12,7 @@ const Service = (props) => {
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{description}</Card.Text>
-                    <Button variant="primary">More Info</Button>
+                    <Button variant="danger">More Info</Button>
                 </Card.Body>
             </Card>
         </div>
@@ -21,12 +21,4 @@ const Service = (props) => {
 
 export default Service;
 
-{/* <div className="">
-<div>
-<img src={img} alt="" />
-</div>
-<div>
-<h2>Name:{name}</h2>
-<h4>{description}</h4>
-</div>
-</div> */}
+
