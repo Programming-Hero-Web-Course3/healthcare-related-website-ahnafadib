@@ -65,10 +65,11 @@ const Register = () => {
                 <Form.Group as={Row} className="mb-3">
                     <Col sm={{ span: 10, offset: 2 }}>
                         <Button type="submit">{isLogin ? "Login" : "Register"}</Button>
+                        <Link className="p-4 " to="/login">Already Registered?</Link>
                     </Col>
                 </Form.Group>
             </Form>
-            <Link to="/login">Already Registered?</Link>
+
         </div>
     );
 };

@@ -1,3 +1,4 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
@@ -7,7 +8,8 @@ const Login = () => {
     return (
         <div>
             <h2>Please Login</h2>
-            <button onClick={signInUsingGoogle}>Google Sign In</button>
+            {/* <button onClick={signInUsingGoogle}>Google Sign In</button> */}
+            <Button onClick={signInUsingGoogle} variant="danger">Google Sign In</Button>
             <br />
             <br />
             <Link to="/register">New User?</Link>

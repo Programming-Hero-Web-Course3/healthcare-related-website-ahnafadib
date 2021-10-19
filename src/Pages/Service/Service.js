@@ -14,8 +14,8 @@ const Service = (props) => {
                     <div className="card-body g-4 align-items-center">
                         <h4 className="card-title fst-italic">{name}</h4>
                         <Card.Text>{description}</Card.Text>
-                        <Link className="text-decoration-none" to=''> {/****** */}
-                            <button className="btn btn-success text-white">More Info</button>
+                        <Link className="text-decoration-none" to='/doctors'> {/****** */}
+                            <button className="btn btn-danger text-white">More Info</button>
                         </Link>
                     </div>
                 </div>

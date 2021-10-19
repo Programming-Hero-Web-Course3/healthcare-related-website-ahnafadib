@@ -10,7 +10,7 @@ const Footer = () => {
     }
     return (
         <footer activeStyle={activeStyle} className="bg-danger text-dark p-3 color-">
-            <div className="d-flex justify-content-around ">
+            <div className="d-flex justify-content-around row row-cols-1 row-cols-md-3 ">
                 <div>
                     <h1>Contact Us</h1>
                     <p>Chattogram,Bangladesh</p>

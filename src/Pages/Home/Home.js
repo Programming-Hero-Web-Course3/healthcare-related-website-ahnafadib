@@ -15,7 +15,7 @@ const Home = () => {
                 <div>
                     <h1 className="mx-4 p-2">Our Aim is to deliver the best medical service</h1>
                     <Link to="/services">
-                        <button className="btn btn-outline-danger" type="button">
+                        <button className="btn btn-outline-danger rounded" type="button">
                             Our Services
                         </button>
                     </Link>
@@ -23,27 +23,6 @@ const Home = () => {
             </div >
             <div className="mx-4 my-4 p-4 ">
                 <Carousel>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100 align-items-center"
-                            src="https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/1024x672/gallery-1461769700-gettyimages-51343398.jpg?resize=480:*"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <h3 className="text-danger font-bold font-weight-bold">Operation Facilities</h3>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100 align-items-center"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxyou54YCvExNdFJriyQCfDOFvlzFP6sHqbVk4NbvBE1-JKEn1djD_nVCW87xa1bp-5to&usqp=CAU"
-                            alt="Second slide"
-                        />
-
-                        <Carousel.Caption>
-                            <h3 className="text-danger font-bold font-weight-bold" >Diagnostic Center</h3>
-                        </Carousel.Caption>
-                    </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 align-items-center"
@@ -55,6 +34,28 @@ const Home = () => {
                             <h3 className="text-danger font-bold font-weight-bold">Specialist Doctors</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 align-items-center"
+                            src="https://st.depositphotos.com/1518767/1415/i/600/depositphotos_14156552-stock-photo-side-view-of-a-surgical.jpg"
+                            alt="First slide"
+                        />
+                        <Carousel.Caption>
+                            <h3 className="text-danger font-bold font-weight-bold">Operation Facilities</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 align-items-center"
+                            src="https://diagnosticsmarketing.net/blog/wp-content/uploads/2019/03/visitprep02.jpg"
+                            alt="Second slide"
+                        />
+
+                        <Carousel.Caption>
+                            <h3 className="text-danger font-bold font-weight-bold" >Diagnostic Center</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
                 </Carousel>
             </div>
         </div>
