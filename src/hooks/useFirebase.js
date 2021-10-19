@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 initializeAuthentication();
 
 const useFirebase = () => {
+
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
 

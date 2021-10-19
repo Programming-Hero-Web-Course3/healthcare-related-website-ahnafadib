@@ -1,21 +1,21 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Service = (props) => {
-    const { name, description, img } = props.service
-
+const Doctor = (props) => {
+    const { name, fees, dept, img } = props.doctor
     return (
         <div className="">
             <div className="col border border-1 border-secondary rounded shadow-lg p-3 mb-5">
                 <div className="card h-100">
                     <img src={img} className="card-img-top" alt="..." />
                     <div className="card-body g-4 align-items-center">
-                        <h4 className="card-title fst-italic">{name}</h4>
-                        <Card.Text>{description}</Card.Text>
-                        <Link className="text-decoration-none" to=''> {/****** */}
-                            <button className="btn btn-success text-white">More Info</button>
+                        <h2 className="card-title fst-italic">Name: {name}</h2>
+                        <h3 className="card-title fst-italic">{dept}</h3>
+                        <h4 className="card-title fst-italic">Fee: {fees}</h4>
+
+                        <Link className="text-decoration-none">
+                            <button className="btn btn-danger text-white">Appointment</button>
                         </Link>
                     </div>
                 </div>
@@ -24,6 +24,4 @@ const Service = (props) => {
     );
 };
 
-export default Service;
-
-
+export default Doctor;

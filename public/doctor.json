@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Dr John",
+        "dept": "Neorology",
+        "fees": 1000,
+        "img": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr Max",
+        "dept": "Medicine",
+        "fees": 2000,
+        "img": "https://ak.picdn.net/shutterstock/videos/18215125/thumb/1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr Chris",
+        "dept": "Surgery",
+        "fees": 5000,
+        "img": "https://thumbs.dreamstime.com/b/serious-confident-experienced-handsome-young-doctor-man-isolated-white-background-male-medical-uniform-stethoscope-holding-138576942.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr Morris",
+        "dept": "Surgery",
+        "fees": 2000,
+        "img": "https://www.blogoval.com/wp-content/uploads/2021/07/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr Shah",
+        "dept": "Gynocologist",
+        "fees": 3000,
+        "img": "https://thumbs.dreamstime.com/b/serious-confident-experienced-handsome-young-doctor-man-isolated-white-background-male-medical-uniform-stethoscope-holding-138576942.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dr Mac",
+        "dept": "Medicine",
+        "fees": 4000,
+        "img": "https://ak.picdn.net/shutterstock/videos/18215125/thumb/1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Dr Adam",
+        "dept": "Neorology",
+        "fees": 1500,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyIgZUyrDEaLZXTAjdFzxeCCv8j6iq06CGzMH9nXUWbhVw1Kmi-l5SPRcrQX1kt_id1MY&usqp=CAU"
+    },
+    {
+        "id": 8,
+        "name": "Dr Alan",
+        "dept": "Medicine",
+        "fees": 3000,
+        "img": "https://ak.picdn.net/shutterstock/videos/18215125/thumb/1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Dr Ahnaf",
+        "dept": "Therapist",
+        "fees": 1500,
+        "img": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg"
+    }
+]

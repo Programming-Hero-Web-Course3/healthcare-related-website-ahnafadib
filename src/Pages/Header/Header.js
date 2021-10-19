@@ -17,13 +17,17 @@ const Header = () => {
     return (
         <nav className="bg-danger text-dark p-3">
             <div>
-                <h1 className="mx-4 p-4 text-dark">Dr John Site</h1>
+                <h1 className="mx-4 p-4 text-dark">Doctors' Diagnostic Center</h1>
                 <h4 className="my-2 p-2 text-dark">For Your Reliable Medical Help</h4>
             </div>
             <NavLink activeStyle={activeStyle}
                 className="mx-4 text-decoration-none text-dark" to="/home">Home</NavLink>
             <NavLink activeStyle={activeStyle}
                 className="mx-4 text-decoration-none text-dark" to="/services">Services</NavLink>
+            <NavLink activeStyle={activeStyle}
+                className="mx-4 text-decoration-none text-dark" to="/doctors">Doctors</NavLink>
+            <NavLink activeStyle={activeStyle}
+                className="mx-4 text-decoration-none text-dark" to="/about">About Us</NavLink>
             <NavLink activeStyle={activeStyle}
                 className="mx-4 text-decoration-none text-dark" to="/login">Log in</NavLink>
             <NavLink activeStyle={activeStyle}
