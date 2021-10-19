@@ -13,3 +13,5 @@ Live Site Link: https://hopeful-yalow-093b11.netlify.app/
 *As I have introduced authentication process in this project,firebase is used.In this project I have used Gooogle sign in and Email/Password sign in method.
 
 *Here is also react router used for applying single page application as its the simplest form.Dynamic routing is also used in this project.
+
+*For using some icons,Awesome Icons is used.
