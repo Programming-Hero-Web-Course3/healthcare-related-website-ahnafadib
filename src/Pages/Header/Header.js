@@ -20,7 +20,7 @@ const Header = () => {
                 <h1 className="mx-4 p-4 text-dark">Doctors' Diagnostic Center</h1>
                 <h4 className="my-2 p-2 text-dark">For Your Reliable Medical Help</h4>
             </div>
-            <div className=" row row-cols-1 row-cols-md-3" >
+            <div className="" >
                 <NavLink activeStyle={activeStyle}
                     className="mx-4 text-decoration-none text-dark" to="/home">Home</NavLink>
                 <NavLink activeStyle={activeStyle}
