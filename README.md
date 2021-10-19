@@ -1,4 +1,5 @@
-Webiste Name: Doctors' Diagnostic Center
+Webiste Name: **Doctors' Diagnostic Center**
+
 Live Site Link: https://hopeful-yalow-093b11.netlify.app/
 
 *This is a website of a diagonstic center,Where all the medical sevices and health related services will be provided.This website can help the users to make an appointment and collect all the info of a diagnostic center.
